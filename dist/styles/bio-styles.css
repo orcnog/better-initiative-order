@@ -1,7 +1,10 @@
 #client-settings form div.form-group.bio-checkbox + div.form-group {
-    transition: padding 100ms, border-width 100ms, max-height 100ms;
+    margin: -1rem 0 1rem;
+    padding-left: 1rem;
     max-height: 15em;
-    overflow: hidden
+    background: rgba(0 0 0 / 10%);
+    transition: padding 100ms, border-width 100ms, max-height 100ms;
+    overflow: hidden;
 }
 
 #client-settings form div.form-group.bio-checkbox:not(.active) + div.form-group {
