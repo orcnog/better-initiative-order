@@ -1,0 +1,32 @@
+{
+  "name": "better-initiative-order",
+  "title": "Better Initiative Order",
+  "description": "A simple Foundry VTT module to reorder initiative ties from alphabetical to something more meaningful, and customizable.",
+  "author": "orcnog",
+  "license": "https://opensource.org/licenses/AGPL-3.0",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.8.4",
+  "compatibleCoreVersion": "9",
+  "scripts": [],
+  "esmodules": [
+    "./better-initiative-order.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper"
+      }
+    ]
+  },
+  "styles": [
+    "./styles/bio-styles.css"
+  ],
+  "languages": [],
+  "packs": [],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "protected": false,
+  "coreTranslation": false
+}

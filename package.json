@@ -1,0 +1,23 @@
+{
+  "name": "better-initiative-order",
+  "version": "0.0.0",
+  "description": "A simple Foundry VTT module to reorder initiative ties from alphabetical to something more meaningful, and customizable.",
+  "main": "dist/orcnog-better-initiative-order.js",
+  "scripts": {
+    "test": "python playtest.py"
+  },
+  "keywords": [
+    "Foundry",
+    "Combat",
+    "Initiative",
+    "orcnog"
+  ],
+  "author": "orcnog",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
